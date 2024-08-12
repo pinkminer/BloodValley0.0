@@ -20,7 +20,7 @@ public class RecordData : MonoBehaviour
     }
     #endregion
 
-    public const int recordNum = 7; //档位数
+    public const int recordNum = 6; //档位数
     public const string NAME = "RecordData";
 
     public string[] recordName = new string[recordNum];
