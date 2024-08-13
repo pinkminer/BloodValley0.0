@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class DataManager : MonoBehaviour
@@ -17,6 +20,12 @@ public class DataManager : MonoBehaviour
     public class SaveData
     {
         public List<int> goodsIds;  // Use List<int> to store multiple item IDs
+        public List<int> usedGoodsIds; /* 将已获得和使用的物品从场景里清除
+         * 因为已有代码的逻辑是，当合成系统将背包中Items消耗后，此物品也会从
+         * PickedItems.pickedItems中删除，移到另一个列表里，这里先写一个
+         * usedGoodsIds用来接收这些已经用过的物品id，然后清除它以及goodsIds
+         * 中所有的物品。
+         */
     }
 
     void Awake()
@@ -78,7 +87,8 @@ public class DataManager : MonoBehaviour
         // Save picked items to the selected slot
         if (PickedItems.getInstance().pickedItems.Count > 0)
         {
-            SaveItemIds(slot, PickedItems.getInstance().pickedItems);
+            SaveItemIds(slot, PickedItems.getInstance().pickedItems, 
+                PickedItems.getInstance().usedItems);
         }
 
         // Update button text after save
@@ -95,7 +105,7 @@ public class DataManager : MonoBehaviour
     }
 
     // Save item IDs to a specific slot (1-6)
-    public void SaveItemIds(int slot, List<int> goodsIds)
+    public void SaveItemIds(int slot, List<int> goodsIds, List<int> usedGoodsIds)
     {
         if (slot < 1 || slot > 6)
         {
@@ -105,6 +115,7 @@ public class DataManager : MonoBehaviour
 
         SaveData data = new SaveData();
         data.goodsIds = goodsIds;
+        data.usedGoodsIds = usedGoodsIds;
 
         string json = JsonUtility.ToJson(data);
         string saveFilePath = GetSaveFilePath(slot);
@@ -154,4 +165,5 @@ public class DataManager : MonoBehaviour
     {
         return Path.Combine(saveFolderPath, "savedItem_slot" + slot + ".json");
     }
+
 }
