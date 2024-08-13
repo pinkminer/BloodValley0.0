@@ -121,14 +121,38 @@
         }
         ,
         {"id" : 16,
-        "ItemName":"一堆碎石",
+        "ItemName":"半管两面真牙膏",
+        "ItemEnglishName":"HalfOfTwoFaceToothpaste",
+        "ItemType":"Synthetic",
+        "ItemDescribe":"",
+        "SpritePath":"Art/Sprites/Items/HalfOfTwoFaceToothpaste"
+        }
+        ,
+        {"id" : 17,
+        "ItemName":"泡腾片？",
+        "ItemEnglishName":"EffervescentTablets？",
+        "ItemType":"Synthetic",
+        "ItemDescribe":"",
+        "SpritePath":"Art/Sprites/Items/EffervescentTablets？"
+        }
+        ,
+        {"id" : 18,
+        "ItemName":"英雌牌墨水",
+        "ItemEnglishName":"FemaleAndBritishInk",
+        "ItemType":"Synthetic",
+        "ItemDescribe":"",
+        "SpritePath":"Art/Sprites/Items/FemaleAndBritishInk"
+        }
+        ,
+        {"id" : 19,
+        "ItemName":"碎石",
         "ItemEnglishName":"BrokenRock",
         "ItemType":"Synthetic",
         "ItemDescribe":"",
         "SpritePath":"Art/Sprites/Items/BrokenRock"
         }
         ,
-        {"id" : 17,
+        {"id" : 20,
         "ItemName":"花瓶",
         "ItemEnglishName":"Vase",
         "ItemType":"Interactive",
@@ -136,7 +160,7 @@
         "SpritePath":"Art/Sprites/Items/Vase"
         }
         ,
-        {"id" : 18,
+        {"id" : 21,
         "ItemName":"火柴",
         "ItemEnglishName":"Firewood",
         "ItemType":"Interactive",
@@ -144,7 +168,7 @@
         "SpritePath":"Art/Sprites/Items/Firewood"
         }
         ,
-        {"id" : 19,
+        {"id" : 22,
         "ItemName":"螺丝刀",
         "ItemEnglishName":"Screwdriver",
         "ItemType":"Interactive",

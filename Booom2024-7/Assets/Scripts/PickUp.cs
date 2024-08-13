@@ -41,6 +41,11 @@ public class PickUp : MonoBehaviour
                 {
                     foreach(Collider2D c in col)
                     {
+                        if(c.name=="Fire"){
+                            if(Inventory.getInstance().isChecked!=true || Inventory.getInstance().checkedItem!=21){
+                                return;
+                            }
+                        }
                         int id = ItemsInfo.getInstance().getId(c.name);
                         PickedItems.getInstance().pickedItems.Add(id);
                         int num = PlayerPrefs.GetInt("PickedItemNum");
@@ -48,7 +53,10 @@ public class PickUp : MonoBehaviour
                         Debug.Log("cunchu:"+num+1+":"+PlayerPrefs.GetInt("picked"+(num+1).ToString()));
                         PlayerPrefs.SetInt("PickedItemNum",num+1);
                         Inventory.getInstance().ItemUpdate();
+
+                        c.enabled=false;
                         c.GetComponent<SpriteRenderer>().enabled = false;
+                        
                     }
 
                 }

@@ -80,7 +80,7 @@ public class ItemsInfo : MonoBehaviour {
     #endregion
 
     public string getSpritePath(int id){
-        if(id>0&&id<=19){
+        if(id>0&&id<=50){
             foreach(var data in Item.Items){
                 if(data.id == id){
                     return data.SpritePath;

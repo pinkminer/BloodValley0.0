@@ -9,6 +9,9 @@ public class Inventory : MonoBehaviour
     List<int> pickedItems = new List<int>();
     private UnityEngine.UI.Button _Btn_ListUp;
     private UnityEngine.UI.Button _Btn_ListDown;
+    public int checkedCell;
+    public int checkedItem;
+    public bool isChecked;
     private int currentPage;
     private int page;
 
@@ -30,6 +33,7 @@ public class Inventory : MonoBehaviour
             currentPage=1;
         }
         ItemUpdate();
+        PageChange();
     }
     public void ListDown(){
         if(page==1){
@@ -42,6 +46,37 @@ public class Inventory : MonoBehaviour
             currentPage=page;
         }
         ItemUpdate();
+        PageChange();
+    }
+
+    public void CheckCell(int id){
+        if(isChecked){
+            Debug.Log("quxiao"+checkedCell);
+            CancelCheck(checkedCell);
+        }
+        checkedCell=id;
+        isChecked=true;
+        checkedItem = cells[id]._goodsId;
+        cells[id].SelectImage(true);
+    }
+
+    public void CancelCheck(int id){
+        checkedCell = -1;
+        isChecked = false;
+        checkedItem = -1;
+        Debug.Log("cancelid"+id);
+        cells[id].isChecked=false;
+        cells[id].SelectImage(false);
+    }
+
+    public void PageChange(){
+        checkedCell = -1;
+        isChecked = false;
+        checkedItem = -1;
+        for(int i=0;i<4;i++){
+            cells[i].isChecked=false;
+            cells[i].SelectImage(false);
+        }
     }
 
     void Awake(){
@@ -52,6 +87,9 @@ public class Inventory : MonoBehaviour
         _Btn_ListUp.onClick.AddListener(new UnityEngine.Events.UnityAction(ListUp));
         _Btn_ListDown.onClick.AddListener(new UnityEngine.Events.UnityAction(ListDown));
 
+        isChecked = false;
+        checkedCell = 0;
+
     }
 
     void Start(){
@@ -59,6 +97,7 @@ public class Inventory : MonoBehaviour
         page = pickedItems.Count/4+1;
         currentPage = 1;
         ItemUpdate();
+        DontDestroyOnLoad(this);
     }
 
 
