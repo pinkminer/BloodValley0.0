@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     {
         
         // 查找背包，在加载场景时确保已拾取的物品不显示
-        ItemsInitiate.InitiateItems();
     }
 
     // Update is called once per frame

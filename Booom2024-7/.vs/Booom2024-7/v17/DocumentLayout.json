@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PROJECT\\Booom2024\\Booom2024-7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\compoundtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\compoundtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\itemsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|e:\\project\\booom2024\\booom2024-7\\assets\\scripts\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|E:\\PROJECT\\Booom2024\\Booom2024-7\\assets\\scripts\\ui_packcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86B9989-5BC6-838F-B4D7-2E624228A83B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_packcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInfo.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\PlayerInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInfo.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:00:34.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneChange.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\SceneChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChange.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\SceneChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneChange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:17:21.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompoundTree.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\CompoundTree.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CompoundTree.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\CompoundTree.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CompoundTree.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwGUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T04:53:52.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PickUp.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\PickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickUp.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\PickUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickUp.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T15:21:35.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAiwG4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T03:53:52.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UI_PackCell.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\UI_PackCell.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI_PackCell.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\UI_PackCell.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI_PackCell.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wBEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T09:15:52.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemsInfo.cs",
+              "DocumentMoniker": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\ItemsInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemsInfo.cs",
+              "ToolTip": "E:\\PROJECT\\Booom2024\\Booom2024-7\\Assets\\Scripts\\ItemsInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemsInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:51:55.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

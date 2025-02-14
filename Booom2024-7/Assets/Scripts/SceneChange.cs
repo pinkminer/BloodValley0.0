@@ -15,7 +15,7 @@ public class SceneChange : MonoBehaviour
 	[SerializeField]private float duration = 0.5f;
     private bool sceneStarting = true;
     private RawImage backImage;
-    Transform button ;
+    Transform button;
     String name;
     int num;
 

@@ -48,6 +48,7 @@ public class PickUp : MonoBehaviour
                         }
                         int id = ItemsInfo.getInstance().getId(c.name);
                         PickedItems.getInstance().pickedItems.Add(id);
+                        //Debug.Log(id);
                         int num = PlayerPrefs.GetInt("PickedItemNum");
                         PlayerPrefs.SetInt("picked"+(num+1).ToString(),id);
                         Debug.Log("cunchu:"+num+1+":"+PlayerPrefs.GetInt("picked"+(num+1).ToString()));
