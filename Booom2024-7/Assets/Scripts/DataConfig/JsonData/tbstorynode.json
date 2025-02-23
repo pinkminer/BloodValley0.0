@@ -1,0 +1,67 @@
+[
+  {
+    "Id": 1,
+    "StoryLineId": -1,
+    "StoryLine": "AB",
+    "StoryPotions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "IsEnd": false,
+    "EndingType": 0,
+    "IsEnterNextState": false,
+    "DialogueId": 0,
+    "IsChangeSprite": false,
+    "SpritePath": ""
+  },
+  {
+    "Id": 2,
+    "StoryLineId": 1,
+    "StoryLine": "AB-CDE",
+    "StoryPotions": [],
+    "IsEnd": false,
+    "EndingType": 0,
+    "IsEnterNextState": false,
+    "DialogueId": 0,
+    "IsChangeSprite": false,
+    "SpritePath": ""
+  },
+  {
+    "Id": 3,
+    "StoryLineId": 1,
+    "StoryLine": "AB-CDE-FG",
+    "StoryPotions": [],
+    "IsEnd": false,
+    "EndingType": 0,
+    "IsEnterNextState": false,
+    "DialogueId": 0,
+    "IsChangeSprite": false,
+    "SpritePath": ""
+  },
+  {
+    "Id": 4,
+    "StoryLineId": 1,
+    "StoryLine": "AB-CDE-FG-HIJ",
+    "StoryPotions": [],
+    "IsEnd": false,
+    "EndingType": 0,
+    "IsEnterNextState": false,
+    "DialogueId": 0,
+    "IsChangeSprite": false,
+    "SpritePath": ""
+  },
+  {
+    "Id": 5,
+    "StoryLineId": 1,
+    "StoryLine": "AB-CDE-FG-HIJ-KL",
+    "StoryPotions": [],
+    "IsEnd": false,
+    "EndingType": 0,
+    "IsEnterNextState": false,
+    "DialogueId": 0,
+    "IsChangeSprite": false,
+    "SpritePath": ""
+  }
+]

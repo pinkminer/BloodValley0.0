@@ -1,0 +1,128 @@
+[
+  {
+    "Id": 1,
+    "Name": "AB",
+    "PotionTag": "AB",
+    "SpritePath": ""
+  },
+  {
+    "Id": 2,
+    "Name": "AC",
+    "PotionTag": "AC",
+    "SpritePath": ""
+  },
+  {
+    "Id": 3,
+    "Name": "AE",
+    "PotionTag": "AE",
+    "SpritePath": ""
+  },
+  {
+    "Id": 4,
+    "Name": "BC",
+    "PotionTag": "BC",
+    "SpritePath": ""
+  },
+  {
+    "Id": 5,
+    "Name": "BD",
+    "PotionTag": "BD",
+    "SpritePath": ""
+  },
+  {
+    "Id": 6,
+    "Name": "BE",
+    "PotionTag": "BE",
+    "SpritePath": ""
+  },
+  {
+    "Id": 7,
+    "Name": "CD",
+    "PotionTag": "CD",
+    "SpritePath": ""
+  },
+  {
+    "Id": 8,
+    "Name": "CE",
+    "PotionTag": "CE",
+    "SpritePath": ""
+  },
+  {
+    "Id": 9,
+    "Name": "DE",
+    "PotionTag": "DE",
+    "SpritePath": ""
+  },
+  {
+    "Id": 10,
+    "Name": "DJ",
+    "PotionTag": "DJ",
+    "SpritePath": ""
+  },
+  {
+    "Id": 11,
+    "Name": "EJ",
+    "PotionTag": "EJ",
+    "SpritePath": ""
+  },
+  {
+    "Id": 12,
+    "Name": "EK",
+    "PotionTag": "EK",
+    "SpritePath": ""
+  },
+  {
+    "Id": 13,
+    "Name": "EL",
+    "PotionTag": "EL",
+    "SpritePath": ""
+  },
+  {
+    "Id": 14,
+    "Name": "FG",
+    "PotionTag": "FG",
+    "SpritePath": ""
+  },
+  {
+    "Id": 15,
+    "Name": "FH",
+    "PotionTag": "FH",
+    "SpritePath": ""
+  },
+  {
+    "Id": 16,
+    "Name": "HI",
+    "PotionTag": "HI",
+    "SpritePath": ""
+  },
+  {
+    "Id": 17,
+    "Name": "HJ",
+    "PotionTag": "HJ",
+    "SpritePath": ""
+  },
+  {
+    "Id": 18,
+    "Name": "KL",
+    "PotionTag": "KL",
+    "SpritePath": ""
+  },
+  {
+    "Id": 19,
+    "Name": "HIJ",
+    "PotionTag": "HIJ",
+    "SpritePath": ""
+  },
+  {
+    "Id": 20,
+    "Name": "FGI",
+    "PotionTag": "FGI",
+    "SpritePath": ""
+  },
+  {
+    "Id": 21,
+    "Name": "CDE",
+    "PotionTag": "CDE",
+    "SpritePath": ""
+  }
+]
