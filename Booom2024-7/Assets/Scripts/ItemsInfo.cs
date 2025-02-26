@@ -90,9 +90,24 @@ public class ItemsInfo : MonoBehaviour {
         return "none";
     }
 
+    public string getItemName(string engName){
+         if(engName!=null){
+            
+            foreach(var data in Item.Items){
+                // Debug.Log(data.ItemEnglishName);
+                if(engName==data.ItemEnglishName){
+                    return data.ItemName;
+                }
+            }
+        }
+        return null;
+    }
+
     public int getId(string name){
         if(name!=null){
+            // Debug.Log(name);
             foreach(var data in Item.Items){
+                // Debug.Log(data.ItemEnglishName);
                 if(name==data.ItemEnglishName){
                     return data.id;
                 }

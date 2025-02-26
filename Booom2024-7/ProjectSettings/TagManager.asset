@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,7 @@ TagManager:
     locked: 0
   - name: front
     uniqueID: 1619842095
+    locked: 0
   - name: Item
     uniqueID: 1719509825
     locked: 0
