@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Persisent.unity
+    guid: f81eda2b123934d4fb7d0dbd68110195
+  - enabled: 1
     path: Assets/Scenes/BloodScabValley_1.unity
     guid: 1e97b12b59fab0946b2d7d96875a69dd
   - enabled: 1
@@ -20,4 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BloodScabValley_4.unity
     guid: c6e7f1bcb7fbee44881d2521ff45dff1
+  - enabled: 1
+    path: Assets/Scenes/BloodScabValleyIndoor_1.unity
+    guid: c49d91e245413eb4c8200bdd296b0951
+  - enabled: 1
+    path: Assets/Scenes/BloodScabValleyIndoor_2.unity
+    guid: c0f62724c8420894b83356f3d821b4d6
+  - enabled: 1
+    path: Assets/Scenes/BloodScabValleyIndoor_3.unity
+    guid: 2434d29a7bea25e46aa9b34b1b452570
+  - enabled: 1
+    path: Assets/Scenes/TestScene_1.unity
+    guid: 7268157c5040b1441aac42e8904fc652
+  - enabled: 1
+    path: Assets/Scenes/TestScene_2.unity
+    guid: 9990020bc4d62bf4399046f6422cc692
   m_configObjects: {}
