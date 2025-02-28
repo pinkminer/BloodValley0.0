@@ -1,0 +1,39 @@
+{
+    "lanDialogues_give":[
+        {
+            "itemID":11,
+            "dialogues":[
+                {
+                    "speaker":"诸葛兰",
+                    "line":"获得历史节点合照台词"
+                },
+                {
+                    "speaker":"张仲浔",
+                    "line":"我是台词我是台词"
+                },
+                {
+                    "speaker":"诸葛兰",
+                    "line":"我是台词我是台词"
+                },
+                {
+                    "speaker":"张仲浔",
+                    "line":"我是台词我是台词"
+                }
+            ]
+        },
+        {
+            "itemID":12,
+            "dialogues":[
+                {
+                    "speaker":"诸葛兰",
+                    "line":"获得和兰的合照的台词"
+                },
+                {
+                    "speaker":"张仲浔",
+                    "line":"台词"
+                }
+            ]
+        }
+    ]
+    
+}
