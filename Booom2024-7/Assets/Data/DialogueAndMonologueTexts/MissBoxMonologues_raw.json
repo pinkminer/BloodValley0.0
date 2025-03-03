@@ -1,0 +1,20 @@
+{
+    "missBoxMonologues":[
+        {
+            "triggerPlayerStatus":"触发独白的主角某形态1",
+            "loop":0,
+            "lines":[
+                "独白",
+                "独白独白独白独白"
+            ]
+        },
+        {
+            "triggerPlayerStatus":"触发独白的主角某形态2",
+            "loop":1,
+            "lines":[
+                "独白",
+                "独白"
+            ]
+        }
+    ]
+}
