@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89851802}
   - component: {fileID: 89851801}
+  - component: {fileID: 89851803}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -166,6 +167,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &89851803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89851800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63cdc5a2d2e6104cac219028e1aa4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickedItems: 
+  usedItems: 
+  pickedItemNum: 0
+  usedItemNum: 0
 --- !u!1 &761392245
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37379dc4fa2dd843be3009e355ee105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startScene: BloodScabValley_1
 --- !u!4 &2103536519
 Transform:
   m_ObjectHideFlags: 0
